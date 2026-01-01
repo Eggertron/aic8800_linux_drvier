@@ -1,3 +1,5 @@
+Forked from https://github.com/goecho/aic8800_linux_drvier
+
 # AIC8800 Linux Driver
 
 This project provides a Linux driver for the AIC8800 chipset, supporting both USB and SDIO interfaces.
@@ -38,6 +40,9 @@ To compile and install this driver, ensure the following dependencies are instal
 ```bash
 # Fedora example
 sudo dnf install kernel-devel kernel-headers gcc make git
+
+# Raspberry OS Example
+sudo apt install raspberrypi-kernel-headers -y
 ```
 
 ## Installation
@@ -47,7 +52,7 @@ sudo dnf install kernel-devel kernel-headers gcc make git
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:goecho/aic8800_linux_drvier.git
+   git clonegit clone https://github.com/Eggertron/aic8800_linux_drvier.git
    cd aic8800_linux_drvier
    ```
 
